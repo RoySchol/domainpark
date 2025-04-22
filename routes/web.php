@@ -5,6 +5,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\BidController;
 use App\Http\Controllers\BidAcceptanceController;
 use App\Http\Controllers\WebhookController;
+use App\Http\Controllers\DomainController;
 
 Route::get('/', function () {
     return view('welcome');
@@ -23,7 +24,9 @@ Route::middleware('auth')->group(function () {
 Route::post('/domains/{domain}/bids', [BidController::class, 'store'])->name('bids.store');
 Route::get('/bids/{bid}/accept/{token}', [BidAcceptanceController::class, 'showAccept'])->name('bids.accept');
 Route::post('/bids/{bid}/accept/{token}', [BidAcceptanceController::class, 'processAccept'])->name('bids.accept.process');
-
 Route::post('/webhooks/mollie', [WebhookController::class,'handle'])->name('webhooks.mollie');
+Route::get('/domains', [DomainController::class, 'index'])
+     ->middleware(['auth'])
+     ->name('domains.index');
 
 require __DIR__.'/auth.php';

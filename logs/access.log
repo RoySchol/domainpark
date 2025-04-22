@@ -526,3 +526,8 @@
 2a03:2880:f800:13:: - - [22/Apr/2025:21:02:05 +0000] "GET / HTTP/2.0" 200 53649 "-" "meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)"
 2a03:2880:f800:1a:: - - [22/Apr/2025:21:02:10 +0000] "GET /register HTTP/2.0" 200 6954 "-" "meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)"
 2a03:2880:f800:7:: - - [22/Apr/2025:21:02:12 +0000] "GET /login HTTP/2.0" 200 6588 "-" "meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)"
+2a02:a448:6460:1:14e7:67f:c00:ed66 - - [22/Apr/2025:21:03:57 +0000] "GET / HTTP/2.0" 200 8969 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+2a02:a448:6460:1:14e7:67f:c00:ed66 - - [22/Apr/2025:21:03:57 +0000] "GET /build/assets/app-v9uuDEjf.css HTTP/2.0" 200 7539 "https://leegdomein.nl/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+2a02:a448:6460:1:14e7:67f:c00:ed66 - - [22/Apr/2025:21:03:57 +0000] "GET /build/assets/app-Bo-u61x1.js HTTP/2.0" 200 29621 "https://leegdomein.nl/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+2a02:a448:6460:1:14e7:67f:c00:ed66 - - [22/Apr/2025:21:03:59 +0000] "GET /domains HTTP/2.0" 404 2080 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+2a02:a448:6460:1:14e7:67f:c00:ed66 - - [22/Apr/2025:21:04:05 +0000] "GET /Domains HTTP/2.0" 404 2080 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
